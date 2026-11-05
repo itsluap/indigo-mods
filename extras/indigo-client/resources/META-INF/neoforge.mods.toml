@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="indigo_client"
+version="0.4.3"
+displayName="Indigo Client"
+description='''Indigo's client-side defaults: switches on the Indigo texture packs (Faithful 32x and the 32x mod packs) once, at the first launch of an Indigo instance, and never overrides the player's later choice. Client-only; not needed on servers.'''
+displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.indigo_client]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.248,)"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.indigo_client]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.21.2)"
+    ordering="NONE"
+    side="CLIENT"

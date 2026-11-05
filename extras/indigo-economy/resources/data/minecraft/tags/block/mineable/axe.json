@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "indigo_economy:blackjack_table",
+    "indigo_economy:roulette_table"
+  ]
+}

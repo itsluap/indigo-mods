@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ckc",
+    "www",
+    " w "
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:green_carpet"
+    },
+    "k": {
+      "item": "minecraft:clock"
+    },
+    "w": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "indigo_economy:roulette_table",
+    "count": 1
+  }
+}

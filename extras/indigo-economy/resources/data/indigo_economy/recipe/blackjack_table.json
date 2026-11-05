@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "cpc",
+    "www",
+    " w "
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:green_carpet"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "w": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "indigo_economy:blackjack_table",
+    "count": 1
+  }
+}

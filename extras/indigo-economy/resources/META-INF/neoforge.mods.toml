@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="indigo_economy"
+version="0.5.4"
+displayName="Indigo Economy"
+description='''Authoritative account-based Indigo balance keyed to Minecraft UUID, an in-game wallet screen, player-run casinos (slot machines, blackjack and roulette paid from each owner's house bank), and a narrow authenticated bridge for the official Indigo Discord bot. Part of the Indigo client pack from 0.4.0.'''
+displayTest="IGNORE_SERVER_VERSION"
+
+[[dependencies.indigo_economy]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.248,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.indigo_economy]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.21.2)"
+    ordering="NONE"
+    side="BOTH"
